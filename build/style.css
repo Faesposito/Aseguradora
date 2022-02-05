@@ -1,0 +1,11 @@
+.swiper-pagination span {
+	background-color: black;
+	width: 6px;
+	height: 6px;
+}
+
+.hero_background {
+	background-image: url(/assets/hero.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
