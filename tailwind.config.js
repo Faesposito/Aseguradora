@@ -23,9 +23,9 @@ module.exports = {
 				"200v": "200vh",
 			},
 			colors: {
-				primary: "#00acc1",
-				secondary: "#E0F7FA",
-				terciary: "#ffd700",
+				primary: "#F46C56",
+				secondary: "#1D2B53",
+				terciary: "#2A3F79",
 			},
 		},
 	},
