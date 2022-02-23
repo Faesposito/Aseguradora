@@ -16,7 +16,7 @@
 		<!-- NavBar full responsive -->
 
 		<header x-data="{ navOpen: false }">
-			<nav class="fixed w-full h-16 bg-white border-b border-gray-200 shadow-sm">
+			<nav class="fixed z-10 w-full h-16 bg-white border-b border-gray-200 shadow-sm">
 				<div class="grid h-full grid-cols-2 md:grid-cols-3">
 					<div class="flex items-center justify-start">
 						<div @click="navOpen = !navOpen" class="flex items-center h-16 px-6 border-r">
@@ -155,7 +155,7 @@
 
 		<!-- Slider -->
 		<div class="flex flex-col items-center w-full py-10 mx-auto my-32 bg-gray-100 swiper h-50v">
-			<h1 class="px-16 my-6 text-2xl font-bold">¿Qué opinan nuestros clientes?</h1>
+			<h1 class="px-16 my-6 text-2xl font-bold">¿Qué opinan nuestros <span class="text-primary">clientes</span>?</h1>
 			<div class="swiper-wrapper">
 				<div class="flex items-center justify-center swiper-slide">
 					<div class="flex flex-col items-start px-6 bg-white border border-gray-200 rounded-md h-44 w-80 justify-evenly">
@@ -325,7 +325,7 @@
 			</div>
 		</section>
 
-		<main class="py-24">
+		<!-- <main class="py-24">
 			<div class="px-48 py-10 mx-auto">
 				<h1 class="mb-10 text-3xl font-semibold text-center text-gray-800 capitalize lg:text-5xl">
 					Nuestros tipos <br />
@@ -367,6 +367,7 @@
 				</div>
 			</div>
 		</main>
+ -->
 
 		<!-- Banner -->
 		<section class="py-10">
